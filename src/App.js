@@ -14,7 +14,6 @@ import javaLogo from "./images/java.svg"
 import javascriptLogo from "./images/javascript.svg"
 import mysqlLogo from "./images/mysql.svg"
 import androidstudioico from "./images/androidStudio.png"
-import selfie from "./images/selfie.jpg"
 import ContactForm from './contact';
 
 
@@ -43,6 +42,7 @@ export default function App(props) {
             <Nav.Link onClick={() => handleSelectDirect(2)} className="nav-link-ltr">Work</Nav.Link>
             <Nav.Link onClick={() => handleSelectDirect(3)} className="nav-link-ltr">Lifestyle</Nav.Link>
             <Nav.Link onClick={() => handleSelectDirect(4)} className="nav-link-ltr">Contact</Nav.Link>
+
           </Nav>
 
         </Navbar.Collapse>
