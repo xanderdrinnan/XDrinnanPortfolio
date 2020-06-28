@@ -14,6 +14,7 @@ import javaLogo from "./images/java.svg"
 import javascriptLogo from "./images/javascript.svg"
 import mysqlLogo from "./images/mysql.svg"
 import androidstudioico from "./images/androidStudio.png"
+import dockerLogo from "./images/dockerLogo.png"
 import ContactForm from './contact';
 
 
@@ -61,6 +62,7 @@ export default function App(props) {
   const [jsV, setJSV] = useState(false);
   const [msqlV, setMSQLV] = useState(false);
   const [astudioV, setAStudioV] = useState(false);
+  const [dockerV, setDockerV] = useState(false);
 
   const handleVisibility = (id) => {
     switch (id) {
@@ -94,6 +96,8 @@ export default function App(props) {
       case "androidIco":
         setAStudioV(!astudioV)
         break;
+      case "dockerIco":
+        setDockerV(!dockerV)
     }
   }
 
@@ -118,6 +122,7 @@ export default function App(props) {
               <img alt="JavaScript Logo" id="jsIco" src={javascriptLogo} onMouseOver={() => handleVisibility("jsIco")} onFocus={() => handleVisibility("jsIco")} onMouseOut={() => handleVisibility("jsIco")} onBlur={() => handleVisibility("jsIco")} />
               <img alt="MySQL Logo" id="mysqlIco" src={mysqlLogo} onMouseOver={() => handleVisibility("mysqlIco")} onFocus={() => handleVisibility("mysqlIco")} onMouseOut={() => handleVisibility("mysqlIco")} onBlur={() => handleVisibility("mysqlIco")} />
               <img alt="Android Studio Logo" id="androidIco" src={androidstudioico} onMouseOver={() => handleVisibility("androidIco")} onFocus={() => handleVisibility("androidIco")} onMouseOut={() => handleVisibility("androidIco")} onBlur={() => handleVisibility("androidIco")} />
+              <img alt="Docker Logo" id="dockerIco" src={dockerLogo} onMouseOver={() => handleVisibility("dockerIco")} onFocus={() => handleVisibility("dockerIco")} onMouseOut={() => handleVisibility("dockerIco")} onBlur={() => handleVisibility("dockerIco")} />
 
               <p id="RESTInfo" style={{ visibility: restV ? "visible" : "hidden" }}>Experience with RESTful for Weather.com and Google API's</p>
               <p id="REACTInfo" style={{ visibility: reactV ? "visible" : "hidden" }}>This website was built using ReactJS. I also have experience with Gatsby.</p>
@@ -130,6 +135,7 @@ export default function App(props) {
               <p id="JavaScriptInfo" style={{ visibility: jsV ? "visible" : "hidden" }}>Three years experience with pure JavaScript, as well as its close relation with ReactJS.</p>
               <p id="MySQLInfo" style={{ visibility: msqlV ? "visible" : "hidden" }}>I have a wealth of valuable and high-level database management skills with SQL and PLSQL.</p>
               <p id="AndroidInfo" style={{ visibility: astudioV ? "visible" : "hidden" }}>One course worth of experience using Android Studio to create basic applications with Java and Gradle.</p>
+              <p id="DockerInfo" style={{ visibility: dockerV ? "visible" : "hidden" }}>I know the basics in initially Dockerizing applications through Linux and Windows containers.</p>
             </div>
           </Carousel.Item>
           <Carousel.Item className="carouselInner education-bg">
