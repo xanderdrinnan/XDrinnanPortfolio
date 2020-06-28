@@ -1,0 +1,50 @@
+input[type=text], select, textarea, input[type=email] {
+    margin: 0 auto;
+    width: 60vw;
+    padding: 12px;
+    border: 1px solid rgb(0, 0, 0);
+    color: black !important;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    background-color: #ffffff7a;
+    resize: vertical;
+  }
+
+  #messageBox {
+      height: 200px;
+      color: black !important;
+  }
+
+
+
+  .btn {
+    color: black;
+    height: 50px;
+    width: 60vw;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 0 auto;
+    display: block;
+  
+    background: linear-gradient(to right, black 50%, rgba(255, 255, 255, 0) 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    transition: all .5s ease-out;
+
+    font-family: 'Raleway';
+    font-size: 20px;
+  }
+  
+  .btn:hover {
+    background-color: #ffffff;
+    background-position: left bottom;
+    color: white;
+  }
+
+  h1 {
+    font-family: 'Coda';
+  }
+
+  h3 {
+    font-family: 'Raleway';
+  }

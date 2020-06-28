@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Lemonada');
+@import url('https://fonts.googleapis.com/css?family=Coda');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0);
+    font-family: 'Coda';
+    font-size: 30px;
+  }
+
+.homeContainer h1, h2 {
+    font-family: 'Lemonada';
+    color: rgb(0, 0, 0);
+}
+
+
+.homeContainer p {
+    font-family: 'Raleway';
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.subTitle {
+    font-family: 'Coda';
+    margin-bottom: 1em;
+}
+
+.innerContainer h3 {
+    font-family: 'Coda';
+    font-size: 3em;
+}
+
+.carouselContainer p {
+    line-height: 1;
+    font-family: 'Raleway';
+    font-size: 2em;
+}
+
+.contactContainer h1 {
+    font-family: 'Coda';
+}
+
+.contactContainer {
+    font-family: 'Raleway';
+}
