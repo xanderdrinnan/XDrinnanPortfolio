@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 import * as emailjs from 'emailjs-com'
 import { Button, Form, FormGroup, Input } from 'reactstrap'
+import githubLogo from "./images/githubLogo.png"
+import linkedInLogo from "./images/linkedin.png"
 import selfie from "./images/selfie.jpg"
 import "./contact.css"
 import "./fonts.css"
@@ -96,7 +98,8 @@ class ContactForm extends Component {
             </Button>
           </Form>
           <div className="referenceContainer">
-            LinkedIn: <a href="https://www.linkedin.com/in/xdrinnan/"><img src={selfie}></img></a>
+            <a href="https://www.linkedin.com/in/xdrinnan/"><img src={linkedInLogo}></img></a>
+            <a href="github.com/xanderdrinnan"><img src={githubLogo}></img></a>
           </div>
         </div>
       </>
