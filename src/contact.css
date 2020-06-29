@@ -59,7 +59,6 @@ input[type=text], select, textarea, input[type=email] {
 
 .referenceContainer img {
   width: 4em;
-  border-radius: 50%;
   margin-left: 1em;
   margin-right: 1em;
 }
