@@ -51,8 +51,6 @@ input[type=text], select, textarea, input[type=email] {
 
 .referenceContainer {
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.5);
-  background-blend-mode: lighten;
   margin-top: 1em;
   width: 60vw;
   font-size: 2em;
@@ -75,7 +73,7 @@ input[type=text], select, textarea, input[type=email] {
     font-size: 1em;
   }
   .referenceContainer img {
-    width: 1.5em;
+    width: 2em;
   }
 }
 
@@ -89,6 +87,10 @@ input[type=text], select, textarea, input[type=email] {
     font-size: 1em;
   }
   .referenceContainer img {
-    width: 1.25em;
+    width: 2em;
   }
+}
+
+.carousel-indicators {
+  visibility: hidden;
 }
