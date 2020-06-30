@@ -98,7 +98,7 @@ class ContactForm extends Component {
           </Form>
           <div className="referenceContainer">
             <a href="https://www.linkedin.com/in/xdrinnan/"><img src={linkedInLogo}></img></a>
-            <a href="github.com/xanderdrinnan"><img src={githubLogo}></img></a>
+            <a href="http://github.com/xanderdrinnan"><img src={githubLogo}></img></a>
           </div>
         </div>
       </>
