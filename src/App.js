@@ -198,12 +198,15 @@ export default function App(props) {
                 </p>
               </div>
               <div className="innerContainer">
-                <h3><span style={{color: "#FFF300"}}>Powerlifting</span> & Strongman</h3>
+                <h3><span style={{color: "#FFF300"}}>Powerlifting</span> & Taekwondo</h3>
                 <p>
                 Competitive Level Strength &bull; <span style={{color: "#FF6800"}}>Passion for Improvement</span> &bull; Drive to Succeed
                 </p>
                 <p>
                 Bench Press Peak: 285LBs &bull; Deadlift Peak: 495LBs &bull; Squat Peak: 395LBs
+                </p>
+                <p>
+                  7 Years of Taekwondo Experience &bull; <span style={{color: "#FF6800"}}>Black Belt</span>
                 </p>
               </div>
               <div className="innerContainer">
